@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Learn about water damage cleanup and property restoration services in Los Angeles.">
+  <title>Los Angeles Water Damage Restoration</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: #183047;
+      line-height: 1.6;
+    }
+    header {
+      background: #073b66;
+      color: white;
+      padding: 22px 6%;
+    }
+    header a { color: white; text-decoration: none; }
+    nav { display: flex; flex-wrap: wrap; gap: 18px; }
+    .hero {
+      background: #eaf5fc;
+      padding: 65px 6%;
+      text-align: center;
+    }
+    h1 { color: #073b66; font-size: 38px; }
+    .button {
+      display: inline-block;
+      background: #ef8b32;
+      color: white;
+      padding: 12px 22px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    main { max-width: 1050px; margin: auto; padding: 35px 22px; }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 18px;
+    }
+    .service {
+      border: 1px solid #d8e5ed;
+      border-radius: 8px;
+      padding: 20px;
+    }
+    footer {
+      background: #073b66;
+      color: white;
+      text-align: center;
+      padding: 25px;
+    }
+    footer a { color: white; }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="index.html"><strong>Los Angeles Water Damage Restoration</strong></a>
+    <nav aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="water-damage.html">Water Damage</a>
+      <a href="fire-damage.html">Fire Damage</a>
+      <a href="mold-remediation.html">Mold Remediation</a>
+      <a href="storm-damage.html">Storm Damage</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Los Angeles Water Damage Restoration</h1>
+    <p>Information and resources for property cleanup, drying, and restoration.</p>
+    <a class="button" href="contact.html">Contact Us</a>
+  </section>
+
+  <main>
+    <h2>Restoration Services</h2>
+    <p>Explore information about common property damage issues and restoration options.</p>
+
+    <div class="services">
+      <article class="service">
+        <h3>Water Damage</h3>
+        <p>Learn about leaks, flooding, water removal, and structural drying.</p>
+        <a href="water-damage.html">Learn more</a>
+      </article>
+      <article class="service">
+        <h3>Fire Damage</h3>
+        <p>Explore information about smoke damage and property recovery.</p>
+        <a href="fire-damage.html">Learn more</a>
+      </article>
+      <article class="service">
+        <h3>Mold Remediation</h3>
+        <p>Learn about moisture problems, mold prevention, and remediation.</p>
+        <a href="mold-remediation.html">Learn more</a>
+      </article>
+      <article class="service">
+        <h3>Storm Damage</h3>
+        <p>Find information about storm-related leaks and property damage.</p>
+        <a href="storm-damage.html">Learn more</a>
+      </article>
+    </div>
+
+    <h2>Serving Los Angeles</h2>
+    <p>Visit our website for more information about property restoration.</p>
+    <p><a href="https://losangeleswaterdamagerestoration.org/">
+      Visit our main website
+    </a></p>
+  </main>
+
+  <footer>
+    <p>Los Angeles Water Damage Restoration</p>
+    <p>Phone: <a href="tel:+13238801239">+1 323-880-1239</a></p>
+    <p><a href="https://losangeleswaterdamagerestoration.org/">
+      losangeleswaterdamagerestoration.org
+    </a></p>
+  </footer>
+</body>
+</html>
